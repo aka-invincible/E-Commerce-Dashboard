@@ -1,0 +1,100 @@
+.nav-ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(6, 203, 209);
+}
+
+.nav-ul li a {
+    color: azure;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    /* padding: 3px; */
+    text-align: center;
+    background-color: rgb(6, 203, 209);
+    color: azure;
+}
+
+.signup,
+.product {
+    margin-left: 35%;
+    /* display: flex; */
+}
+
+.inputbox {
+    display: block;
+    margin: 10px;
+    padding: 6px;
+    width: 300px;
+    border: 1px solid rgb(6, 203, 209);
+}
+
+.btn {
+    background-color: rgb(6, 203, 209);
+    color: azure;
+    margin: 15px;
+    margin-left: 10px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.signup h1 {
+    margin: 10px;
+}
+
+.logo {
+    height: 32px;
+    border-radius: 50%;
+    float: left;
+    width: 32px;
+    margin-top: 9px;
+    margin-left: 17px;
+    color: wheat;
+}
+
+.invalid-input {
+    font-size: 12px;
+    color: red;
+    margin-left: 17px;
+    display: block;
+    margin-top: -11px;
+}
+
+.products-list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.products-list ul li {
+    display: inline-block;
+    border: 1px solid rgb(6, 203, 209);
+    padding: 5px;
+    width: 150px;
+}
+
+.products-list ul {
+    margin: 0;
+}
+
+.search {
+    margin: 25px;
+    padding-left: 15px;
+    width: 284px;
+    height: 30px;
+    border: 1px solid rgb(6, 203, 209);
+}
